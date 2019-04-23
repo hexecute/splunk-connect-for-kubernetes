@@ -79,7 +79,7 @@ image:
 
 
 imageAgg:
-  name: splunk/k8s-metrics-aggr:1.1.0
+  name: repo.splunk.com/solutions/app/sai_fluent-plugin-k8s-metrics-agg
   pullPolicy: Always
 
 

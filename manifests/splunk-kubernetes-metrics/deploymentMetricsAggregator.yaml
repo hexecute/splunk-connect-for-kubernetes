@@ -26,7 +26,7 @@ spec:
         key: node-role.kubernetes.io/master
       containers:
       - name: splunk-fluentd-k8s-metrics-agg
-        image: splunk/k8s-metrics-aggr:1.1.0
+        image: repo.splunk.com/solutions/app/sai_fluent-plugin-k8s-metrics-agg
         imagePullPolicy: Always
         env:
         - name: SPLUNK_HEC_TOKEN
