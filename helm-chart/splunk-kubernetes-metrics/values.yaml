@@ -74,7 +74,7 @@ splunk:
 
 
 image:
-  name: splunk/k8s-metrics:1.1.0
+  name: repo.splunk.com/solutions/app/sai_fluent-plugin-kubernetes-metrics
   pullPolicy: Always
 
 

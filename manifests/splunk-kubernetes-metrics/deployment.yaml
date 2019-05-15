@@ -29,7 +29,7 @@ spec:
         key: node-role.kubernetes.io/master
       containers:
       - name: splunk-fluentd-k8s-metrics
-        image: splunk/k8s-metrics:1.1.0
+        image: repo.splunk.com/solutions/app/sai_fluent-plugin-kubernetes-metrics
         imagePullPolicy: Always
         env:
         - name: KUBERNETES_NODE_IP
